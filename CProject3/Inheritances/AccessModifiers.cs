@@ -30,13 +30,26 @@ namespace CProject3.Inheritances
 
         ////This CalculateRating is the Implementation Detail of the CustomerClass
         ////Notice that we changed this Method to Private to encapsulate it from other Classes
-        ////Now, we only need to changed the code once when it is getting called in the above Class  
+        ////Now, we only need to changed the code once when it is getting called in the above Class
+        ////More importantly, we don't want other Classes to have dependencies from this Method   
         //public int CalculateRating()
         private int CalculateRating()
         {
             return 0;
         }
     }
+
+    ////This GoldCustomer Class derives from the Customer Class
+    public class GoldCustomer : Customer
+    {
+
+        public void OfferVoucher()
+        {
+            ////Notice that the CalculateRating Method above is not accessible
+            this.
+        }
+    }
+
 
 
     class AccessModifiers
