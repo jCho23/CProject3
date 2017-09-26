@@ -44,12 +44,67 @@
 //}
 
 using System;
+using System.Collections.Generic;
+
 namespace CProject3.Classes
 {
-    public class Indexers
-    {
-        public Indexers()
-        {
-        }
-    }
+	////HttpCookie Class
+	public class HttpCookie
+	{
+		////We need a Field to store the Key and Value pairs in the Cookie
+		////Data Type we are going to use is "Dictionary"
+		////Dictionary uses a hash table to store Data and works well with Keys
+
+		////This is a Generic class with Generic Parameters which specify the Type of the Dictionary
+		////In this case, Keys are type String and the Value should also be type String 
+		////We are using ReadOnly to ensure that all the Data on this list is protected and not lost
+		////ReadOnly= Intialize only once
+		private readonly Dictionary<string, string> _dictionary;
+
+		public DateTime Expiry
+		{
+			get;
+			set;
+		}
+
+		////Intiializing Dictionary in the constructor
+		public HttpCookie()
+		{
+			_dictionary = new Dictionary<string, string>();
+		}
+
+		////Declaring an Indexer
+		////The Return type is String, becuase both Key/Value Pairs are Strings 
+		public string this[string key]
+		{
+			get
+			{
+				////Here, we are Delagating to our Dictionary
+				////Internally, Dictonary stores the Key/Value Pairs and HttpCookie is a wrapper around it
+				return _dictionary[key];
+			}
+
+			set
+			{
+				////Value is a KeyWord which represnts what is on the right side of Assignment Operator
+				_dictionary[key] = value;
+			}
+		}
+	}
+
+	//public class IndexersEx
+	//{
+	//    static void Main(string[] args)
+	//    {
+	//        ////Creating Instance of HttpCookie
+	//        var cookie = new HttpCookie();
+
+	//        ////We can store a Key/Value Pair using the Indexer
+	//        ////name= Key
+	//        ////June= Value  
+	//        cookie["name"] = "June";
+
+	//        System.Console.WriteLine(cookie["name"]);
+	//    }
+	//}
 }
