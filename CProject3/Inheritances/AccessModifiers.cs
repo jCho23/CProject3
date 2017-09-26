@@ -18,7 +18,23 @@ namespace CProject3.Inheritances
 
         public void Promote()
         {
-            
+            ////We are calling the CalculateRating Method below
+            var rating = CalculateRating();
+
+            ////From the Return of CalculateRating Method we can make Decisions
+            if (rating==0)
+                Console.WriteLine("Promoted to Level 1");
+            else
+                Console.WriteLine("Promoted to Level 2");
+        }
+
+        ////This CalculateRating is the Implementation Detail of the CustomerClass
+        ////Notice that we changed this Method to Private to encapsulate it from other Classes
+        ////Now, we only need to changed the code once when it is getting called in the above Class  
+        //public int CalculateRating()
+        private int CalculateRating()
+        {
+            return 0;
         }
     }
 
@@ -27,7 +43,9 @@ namespace CProject3.Inheritances
     {
         static void Main(string[] args)
         {
-            
+            ////We are creating a New Instance of Customer
+            var customer = new Customer();
+
         }
     }
 }
