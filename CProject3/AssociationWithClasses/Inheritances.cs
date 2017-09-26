@@ -17,10 +17,21 @@
 using System;
 namespace CProject3.AssociationWithClasses
 {
-    public class Inheritances
-    {
-        public Inheritances()
-        {
-        }
-    }
+    ////Here, we are creating a Class called PresentationObject, which is the Parent Class
+    public class PresentationObject
+	{
+		////Defining Properties
+		public int Width { get; set; }
+		public int Height { get; set; }
+
+		public void Copy()
+		{
+			Console.WriteLine("Object copied to Clipboard.");
+		}
+
+		public void Duplicate()
+		{
+			Console.WriteLine("Object was Duplicated.");
+		}
+	}
 }
