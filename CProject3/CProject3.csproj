@@ -7,5 +7,6 @@
 
   <ItemGroup>
     <Folder Include="Inheritances\" />
+    <Folder Include="AssociationWithClasses\" />
   </ItemGroup>
 </Project>
