@@ -46,7 +46,7 @@ namespace CProject3.Inheritances
         public void OfferVoucher()
         {
             ////Notice that the CalculateRating Method above is not accessible
-            this.
+            //this.
         }
     }
 
