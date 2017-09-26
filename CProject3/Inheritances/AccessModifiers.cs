@@ -10,10 +10,24 @@
 using System;
 namespace CProject3.Inheritances
 {
-    public class AccessModifiers
+    public class Customer
     {
-        public AccessModifiers()
+        ////Here, we are defining Properties of the Customer Class
+        public int Id { get; set; }
+        public string Name { get; set; }
+
+        public void Promote()
         {
+            
+        }
+    }
+
+
+    class AccessModifiers
+    {
+        static void Main(string[] args)
+        {
+            
         }
     }
 }
