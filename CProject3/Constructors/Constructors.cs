@@ -15,6 +15,7 @@
 //    }
 //}
 
+
 ////Demo 2
 //public class Customer
 //{
@@ -28,5 +29,21 @@
 //        //"this" = References the current Object and ties it to the "Name" up above
 //        this.Name = name;
 //    }
+//}
+
+
+////Demo 3
+////Constructor Overloading = Having Methods that are the same Name but differnt signatures
+////Signature= Something that uniquely identifies that method (return type, name, types and numbers of its parameters)
+////Why do we need to overload constructors? ==>
+////==Because we may not have all the parameters when creating an Instance of this class
+
+//public class Customer
+//{
+//    public Customer () {...}
+
+//    public Customer (string name) {...}
+
+//    public Customer (int id, string name) {...}
 //}
 
