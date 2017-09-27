@@ -44,4 +44,10 @@ namespace CProject3.PropertiesInClasses
             }
         }
     }
+
+	////Auto-Implemented Properties
+	public class Person3
+	{
+		public DateTime Birthdate { get; set; }
+	}
 }
