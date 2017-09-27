@@ -8,12 +8,13 @@
 ////* protected internal = Accessible only from the same assebly or any derived Classes     
 
 using System;
-namespace CProject3.Inheritances
-{
+////using Amazon;
+
+
     ////Moved to Amazon.Customer
     //public class Customer
     //{
-    //    ////Here, we are defining Properties of the Customer Class
+        ////Here, we are defining Properties of the Customer Class
     //    public int Id { get; set; }
     //    public string Name { get; set; }
 
@@ -29,10 +30,10 @@ namespace CProject3.Inheritances
     //            Console.WriteLine("Promoted to Level 2");
     //    }
 
-    //    ////This CalculateRating is the Implementation Detail of the CustomerClass
-    //    ////Notice that we changed this Method to Private to encapsulate it from other Classes
-    //    ////Now, we only need to changed the code once when it is getting called in the above Class
-    //    ////More importantly, we don't want other Classes to have dependencies from this Method   
+        ////This CalculateRating is the Implementation Detail of the CustomerClass
+        ////Notice that we changed this Method to Private to encapsulate it from other Classes
+        ////Now, we only need to changed the code once when it is getting called in the above Class
+        ////More importantly, we don't want other Classes to have dependencies from this Method   
     //    //public int CalculateRating()
     //    private int CalculateRating()
     //    {
@@ -41,25 +42,25 @@ namespace CProject3.Inheritances
     //}
 
     ////This GoldCustomer Class derives from the Customer Class
-    public class GoldCustomer : Customer
-    {
+    //public class GoldCustomer : Customer
+    //{
 
-        public void OfferVoucher()
-        {
+    //    public void OfferVoucher()
+    //    {
             ////Notice that the CalculateRating Method above is not accessible
-            //this.
-        }
-    }
+    //        //this.
+    //    }
+    //}
 
 
 
-    class AccessModifiers
-    {
-        static void Main(string[] args)
-        {
-            ////We are creating a New Instance of Customer
-            var customer = new Customer();
+    //class AccessModifiers
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        ////We are creating a New Instance of Customer
+    //        var customer = new Customer();
 
-        }
-    }
+    //    }
+    //}
 }
