@@ -4,10 +4,19 @@
 using System;
 namespace CProject3.PropertiesInClasses
 {
-    public class PropertiesInClasses
+    ////Fields Example
+    public class Person
     {
-        public PropertiesInClasses()
+        private DateTime _birthdate;
+
+        public void SetBirthdate(DateTime birthdate)
         {
+            this._birthdate = birthdate;
+        }
+
+        public DateTime GetBirthdate()
+        {
+            return _birthdate;
         }
     }
 }
