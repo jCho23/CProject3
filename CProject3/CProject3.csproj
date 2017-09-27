@@ -10,5 +10,6 @@
     <Folder Include="AssociationWithClasses\" />
     <Folder Include="Classes\" />
     <Folder Include="Constructors\" />
+    <Folder Include="PropertiesInClasses\" />
   </ItemGroup>
 </Project>
