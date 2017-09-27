@@ -19,4 +19,29 @@ namespace CProject3.PropertiesInClasses
             return _birthdate;
         }
     }
+
+    ////Properties Example
+    ////This is the same code as above
+    //// Private Fields= Always prefixed by "_"  
+    public class Person2
+    {
+        private DateTime _birthdate;
+
+        //This is the Property
+        //Notice that this Property is Public
+        public DateTime Birthdate
+        {
+            //Here, we just return the field: _birthdate
+            get
+            {
+                return _birthdate;
+            }
+
+            //We use the "value" keyword to get what is on the right side of the assignment
+            set
+            {
+                _birthdate = value;
+            }
+        }
+    }
 }
