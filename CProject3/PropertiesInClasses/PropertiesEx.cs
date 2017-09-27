@@ -1,4 +1,7 @@
-﻿using System;
+﻿////**Note: Classes should always be in a VALID state**
+
+using System;
+
 namespace CProject3.PropertiesInClasses
 {
 	public class Person
