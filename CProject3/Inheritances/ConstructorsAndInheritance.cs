@@ -13,6 +13,12 @@ namespace CProject3.Inheritances
         {
             Console.WriteLine("Vehicle is being initialized");
         }
+
+        ////Constructor passing a Parameter
+        public Vehicle(string registrationNumber)
+        {
+
+        }
     }
 
     ////Car Class deriving from Vehicle Class
@@ -23,7 +29,6 @@ namespace CProject3.Inheritances
             Console.WriteLine("Car is being initialized");
         }
     }
-
 
     public class ConstructorsAndInheritance
     {
