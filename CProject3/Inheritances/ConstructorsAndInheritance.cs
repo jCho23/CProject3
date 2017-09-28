@@ -37,10 +37,11 @@ namespace CProject3.Inheritances
 
     public class ConstructorsAndInheritance
     {
-        static void Main(string[] args)
-        {
-            ////Here, we are creating a new car object
-            var car = new Car();
-        }
+        //static void Main(string[] args)
+        //{
+			////Here, we are creating a new car object
+			////Notice, that we have to pass in a registrationNumber for this to compile
+			//var car = new Car("JC2323");
+        //}
     }
 }
