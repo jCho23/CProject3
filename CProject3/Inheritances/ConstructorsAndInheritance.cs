@@ -8,6 +8,8 @@ namespace CProject3.Inheritances
 {
     public class Vehicle
     {
+        private readonly string _registrationNumber;
+
         ////Parameterless Constructor
         public Vehicle()
         {
@@ -17,7 +19,7 @@ namespace CProject3.Inheritances
         ////Constructor passing a Parameter
         public Vehicle(string registrationNumber)
         {
-
+            _registrationNumber = registrationNumber;
         }
     }
 
