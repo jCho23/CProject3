@@ -31,7 +31,7 @@ namespace CProject3.Inheritances
         public Car(string registrationNumber)
             :base(registrationNumber)
         {
-            Console.WriteLine("Car is being initialized");
+            Console.WriteLine("Car is being initialized {0}", registrationNumber);
         }
     }
 
