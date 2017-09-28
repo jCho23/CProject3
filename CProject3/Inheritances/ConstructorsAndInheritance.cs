@@ -26,7 +26,10 @@ namespace CProject3.Inheritances
     ////Car Class deriving from Vehicle Class
     public class Car : Vehicle
     {
-        public Car()
+        ////We are using the "base" keyword to call one of the constructors in the Vehicle Class
+        ////Notice, that we are receiving the registrationNumber and passing the result through base 
+        public Car(string registrationNumber)
+            :base(registrationNumber)
         {
             Console.WriteLine("Car is being initialized");
         }
