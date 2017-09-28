@@ -29,7 +29,8 @@ namespace CProject3.Inheritances
     {
         static void Main(string[] args)
         {
-            
+            ////Here, we are creating a new car object
+            var car = new Car();
         }
     }
 }
