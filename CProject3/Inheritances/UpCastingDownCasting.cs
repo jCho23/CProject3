@@ -1,8 +1,9 @@
-﻿////Upcasting
+﻿////UpCasting
 Circle circle = new Circle();
 Shape shape = circle;
 
-
+////DownCasting
+Circle anotherCircle = (Circle)shape;
 
 
 
