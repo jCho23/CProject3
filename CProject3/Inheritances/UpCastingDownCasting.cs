@@ -5,6 +5,14 @@ Shape shape = circle;
 ////DownCasting
 Circle anotherCircle = (Circle)shape;
 
+////The "as" Keyword
+Car car = object as Car;
+if(car != null)
+{
+    ...
+}
+
+
 
 
 using System;
