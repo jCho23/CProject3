@@ -46,7 +46,11 @@ namespace CProject3.Polymorphism
 
     public class Rectangle : Shape
     {
-        
+        ////We are doing the same as Circle
+        public override void Draw()
+        {
+            Console.WriteLine("Draw a rectangle");
+        }
     }
 
 
