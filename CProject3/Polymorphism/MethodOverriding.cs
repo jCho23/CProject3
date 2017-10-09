@@ -36,7 +36,10 @@ namespace CProject3.Polymorphism
         {
             ////Here, "base" is referencing the parent class
             ////Thus, we can add any code to the circle class itself 
-            base.Draw();
+            //base.Draw();
+
+            ////This is the logic
+            Console.WriteLine("Draw a Circle");
         }
         
     }
