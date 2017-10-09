@@ -51,13 +51,14 @@ namespace CProject3.Polymorphism
         //public ShapeType Type { get; set; }
     }
 
-    public enum ShapeType
-    {
-        Circle,
-        Rectangle
-    }
+	////Since we defined the shapes above, we no longer need this enum
+	//public enum ShapeType
+	//{
+	//    Circle,
+	//    Rectangle
+	//}
 
-    public enum Position
+	public enum Position
     {
     }
 
