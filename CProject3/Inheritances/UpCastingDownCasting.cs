@@ -37,9 +37,13 @@ namespace CProject3.Inheritances
         {
             
         }
+    }
 
-
-
+    ////This Text Class is inheriting from Shape Class
+    public class Text : Shape
+    {
+        public int FontSize { get; set; }
+        public string FontName { get; set; }
     }
 
 
