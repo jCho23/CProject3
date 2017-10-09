@@ -50,6 +50,7 @@ namespace CProject3.Inheritances
         public string FontName { get; set; }
     }
 
+    ////Upcasting is implicit
     class UpCasting
     {
         ////Upcasting Demo
@@ -89,6 +90,7 @@ namespace CProject3.Inheritances
         //}
     }
 
+    ////Downcasting to convert an object to a more specific type to use more properties or methods
     class Downcasting
     {
         ////Downcasting Demo 1
