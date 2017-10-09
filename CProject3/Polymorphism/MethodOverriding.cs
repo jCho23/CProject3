@@ -49,6 +49,11 @@ namespace CProject3.Polymorphism
         public Position Position { get; set; }
         ////Since we defined the shapes above, we no longer need this enum
         //public ShapeType Type { get; set; }
+
+        public void Draw()
+        {
+            
+        }
     }
 
 	////Since we defined the shapes above, we no longer need this enum
