@@ -50,7 +50,7 @@ namespace CProject3.Inheritances
         public string FontName { get; set; }
     }
 
-    class UpCastingDownCasting
+    class UpCasting
     {
         ////Upcasting Demo
         //static void Main(string[] args)
@@ -68,23 +68,24 @@ namespace CProject3.Inheritances
         //    Console.WriteLine(text.Width);
         //}
 
+        ////Upcasting Demo2
         ////StreamReader= read data from any string from any kind
-        static void Main(string[] args)
-        {
+        //static void Main(string[] args)
+        //{
             ////We can pass any object that derives from the Stream Class
-            StreamReader reader = new StreamReader(new MemoryStream());
+            //StreamReader reader = new StreamReader(new MemoryStream());
 
             ////Array list= Store objects in a list
-            var list = new ArrayList();
+            //var list = new ArrayList();
             ////We can pass any object here since object is the base class for all classes
-            list.Add(1);
-            list.Add("June");
-            list.Add(new Text());
+            //list.Add(1);
+            //list.Add("June");
+            //list.Add(new Text());
 
             ////Generic Classes
             ////Notice that "< >" sets the type of the list 
-            var anotherList = new List<int>();
-            var anotherList2 = new List<Shape>();
-        }
+        //    var anotherList = new List<int>();
+        //    var anotherList2 = new List<Shape>();
+        //}
     }
 }
