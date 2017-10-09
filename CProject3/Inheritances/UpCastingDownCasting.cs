@@ -103,7 +103,16 @@ namespace CProject3.Inheritances
             ////Now, we have access to all the properties of the text object
         }
 
+        ////DownCasting Demo 2
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            ////The "as" Keyowrd is used when we don't know the runtime type of an object
+            var button = sender as button;
+            if (button != null)
+            {
+                
+            }
 
-
+        }
     }
 }
