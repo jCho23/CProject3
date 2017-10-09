@@ -20,6 +20,8 @@
 //}
 
 using System;
+using System.IO;
+
 namespace CProject3.Inheritances
 {
     public class Shape
@@ -46,7 +48,6 @@ namespace CProject3.Inheritances
         public string FontName { get; set; }
     }
 
-
     class UpCastingDownCasting
     {
         ////Upcasting Demo
@@ -65,6 +66,14 @@ namespace CProject3.Inheritances
         //    Console.WriteLine(text.Width);
         //}
 
+        ////StreamReader= read data from any string from any kind
+        static void Main(string[] args)
+        {
+            ////We can pass any object that derives from the Stream Class
+            StreamReader reader = new StreamReader(new MemoryStream());
 
+            ////Array list= Store o
+
+        }
     }
 }
