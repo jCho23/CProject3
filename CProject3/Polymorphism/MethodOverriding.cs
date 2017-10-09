@@ -88,9 +88,9 @@ namespace CProject3.Polymorphism
         {
             foreach (var shape in shapes)
             {
-                switch (shape.Type)
-                {
-                    ////We refactored this to classes above
+				////We refactored this to classes above and no longer need this switch class
+                //switch (shape.Type)
+                //{
                 //    case ShapeType.Circle:
                 //        Console.WriteLine("Draw a Circle");
                 //        break;
@@ -98,7 +98,9 @@ namespace CProject3.Polymorphism
                 //    case ShapeType.Rectangle:
                 //        Console.WriteLine("Draw a rectangle");
                 //        break;
-                }
+                //}
+
+
             }
         }
     }
