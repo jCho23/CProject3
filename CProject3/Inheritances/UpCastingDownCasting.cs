@@ -49,20 +49,22 @@ namespace CProject3.Inheritances
 
     class UpCastingDownCasting
     {
-        static void Main(string[] args)
-        {
+        ////Upcasting Demo
+        //static void Main(string[] args)
+        //{
             ////Creating an object of Text
             ////Notice that the text object has more options than the Shape object 
-            Text text = new Text();
+            //Text text = new Text();
 
-            ////Upcasting Demo
-            Shape shape = text;
+			////Upcasting 
+        //    Shape shape = text;
 
-            text.Width = 200;
-            shape.Width = 100;
+        //    text.Width = 200;
+        //    shape.Width = 100;
 
-            Console.WriteLine(text.Width);
+        //    Console.WriteLine(text.Width);
+        //}
 
-        }
+
     }
 }
