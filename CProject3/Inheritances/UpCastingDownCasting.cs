@@ -6,10 +6,17 @@
 //Circle anotherCircle = (Circle)shape;
 
 ////The "as" Keyword
-//Car car = object as Car;
+//Car car = obj as Car;
 //if(car != null)
 //{
 //    ...
+//}
+
+////The "is" Keyword
+////"is" Keyword checks the Type of the object
+//if (obj is Car)
+//{
+//    Car car = (car)obj;
 //}
 
 
