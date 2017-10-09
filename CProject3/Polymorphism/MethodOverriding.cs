@@ -50,7 +50,9 @@ namespace CProject3.Polymorphism
         ////Since we defined the shapes above, we no longer need this enum
         //public ShapeType Type { get; set; }
 
-        public void Draw()
+        ////Since we need different logic to draw Circles and Rectangles, we are using virtual
+        ////Thus, we can change the implementation in the dervied class 
+        public virtual void Draw()
         {
             
         }
