@@ -92,27 +92,27 @@ namespace CProject3.Inheritances
     class Downcasting
     {
         ////Downcasting Demo 1
-        static void Main(string[] args)
-        {
+        //static void Main(string[] args)
+        //{
             ////We created a new Shape object and assigned it to Text
             ////Thus, at runtime it will be type Text 
-            Shape shape = new Text();
+            //Shape shape = new Text();
 
             ////Here, we are downcasting the Text object to acess its properties
-            Text text = (Text)shape;
+            //Text text = (Text)shape;
             ////Now, we have access to all the properties of the text object
-        }
+        //}
 
         ////DownCasting Demo 2
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
+        //private void Button_Click(object sender, RoutedEventArgs e)
+        //{
             ////The "as" Keyowrd is used when we don't know the runtime type of an object
-            var button = sender as button;
-            if (button != null)
-            {
+            //var button = sender as button;
+            //if (button != null)
+            //{
                 
-            }
+            //}
 
-        }
+        //}
     }
 }
