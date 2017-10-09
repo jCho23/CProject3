@@ -28,15 +28,26 @@ namespace CProject3.Inheritances
         public int Width { get; set; }
         public int Height { get; set; }
 
-        ////Definig 
+        ////Defining position
+        public int X { get; set; }
+        public int Y { get; set; }
+
+        ////Method to draw the Shape
+        public void Draw()
+        {
+            
+        }
+
+
 
     }
 
 
     class UpCastingDownCasting
     {
-        static void Main(string[] args){
-            
+        static void Main(string[] args)
+        {
+
         }
     }
 }
