@@ -21,6 +21,7 @@
 
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.IO;
 
 namespace CProject3.Inheritances
@@ -80,7 +81,10 @@ namespace CProject3.Inheritances
             list.Add("June");
             list.Add(new Text());
 
-
+            ////Generic Classes
+            ////Notice that "< >" sets the type of the list 
+            var anotherList = new List<int>();
+            var anotherList2 = new List<Shape>();
         }
     }
 }
