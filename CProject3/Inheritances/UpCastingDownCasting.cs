@@ -20,6 +20,7 @@
 //}
 
 using System;
+using System.Collections;
 using System.IO;
 
 namespace CProject3.Inheritances
@@ -72,7 +73,13 @@ namespace CProject3.Inheritances
             ////We can pass any object that derives from the Stream Class
             StreamReader reader = new StreamReader(new MemoryStream());
 
-            ////Array list= Store o
+            ////Array list= Store objects in a list
+            var list = new ArrayList();
+            ////We can pass any object here since object is the base class for all classes
+            list.Add(1);
+            list.Add("June");
+            list.Add(new Text());
+
 
         }
     }
