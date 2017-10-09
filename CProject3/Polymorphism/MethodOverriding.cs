@@ -100,10 +100,15 @@ namespace CProject3.Polymorphism
                 //        break;
                 //}
 
-
+                ////This is an example of Polymorphism
+                ////Notice that when we call the Draw method, whether it be a circle or rectangle
+                ////at runtime, it will call the apporopiate Method since we used Virtual and Override   
+                shape.Draw();
             }
         }
     }
+
+
 
    
 }
