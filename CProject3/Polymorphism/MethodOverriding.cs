@@ -90,13 +90,14 @@ namespace CProject3.Polymorphism
             {
                 switch (shape.Type)
                 {
-                    case ShapeType.Circle:
-                        Console.WriteLine("Draw a Circle");
-                        break;
+                    ////We refactored this to classes above
+                //    case ShapeType.Circle:
+                //        Console.WriteLine("Draw a Circle");
+                //        break;
 
-                    case ShapeType.Rectangle:
-                        Console.WriteLine("Draw a rectangle");
-                        break;
+                //    case ShapeType.Rectangle:
+                //        Console.WriteLine("Draw a rectangle");
+                //        break;
                 }
             }
         }
