@@ -88,4 +88,15 @@ namespace CProject3.Inheritances
         //    var anotherList2 = new List<Shape>();
         //}
     }
+
+    class Downcasting
+    {
+        ////Downcasting Demo 1
+        static void Main(string[] args)
+        {
+            ////We created a new Shape object and assigned it to Text
+            ////Thus, at runtime it will be type Text 
+            Shape shape = new Text();
+        }
+    }
 }
