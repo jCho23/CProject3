@@ -32,6 +32,12 @@ namespace CProject3.Polymorphism
 {
     public class Circle : Shape
     {
+        public override void Draw()
+        {
+            ////Here, "base" is referencing the parent class
+            ////Thus, we can add any code to the circle class itself 
+            base.Draw();
+        }
         
     }
 
