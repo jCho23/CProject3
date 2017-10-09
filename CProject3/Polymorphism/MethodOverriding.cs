@@ -30,6 +30,8 @@ namespace CProject3.Polymorphism
 
 ////Demo
 {
+    ////Notice that we encapsulated all the properties of the Circle and Rectangle Class
+     
     public class Circle : Shape
     {
         public override void Draw()
@@ -50,6 +52,15 @@ namespace CProject3.Polymorphism
         public override void Draw()
         {
             Console.WriteLine("Draw a rectangle");
+        }
+    }
+
+    ////Notice when we added this new Triangle class, it doesn't affect any other classes
+    public class Triangle : Shape
+    {
+        public override void Draw()
+        {
+            Console.WriteLine("Draw a Triangle");
         }
     }
 
@@ -121,6 +132,4 @@ namespace CProject3.Polymorphism
         }
 
     }
-
-   
 }
