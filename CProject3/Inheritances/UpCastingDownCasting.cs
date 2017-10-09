@@ -51,6 +51,17 @@ namespace CProject3.Inheritances
     {
         static void Main(string[] args)
         {
+            ////Creating an object of Text
+            ////Notice that the text object has more options than the Shape object 
+            Text text = new Text();
+
+            ////Upcasting Demo
+            Shape shape = text;
+
+            text.Width = 200;
+            shape.Width = 100;
+
+            Console.WriteLine(text.Width);
 
         }
     }

@@ -5,20 +5,20 @@ using System;
 namespace CProject3.PropertiesInClasses
 {
     ////Fields Example
-    public class Person
-    {
-        private DateTime _birthdate;
+    //public class Person
+    //{
+    //    private DateTime _birthdate;
 
-        public void SetBirthdate(DateTime birthdate)
-        {
-            this._birthdate = birthdate;
-        }
+    //    public void SetBirthdate(DateTime birthdate)
+    //    {
+    //        this._birthdate = birthdate;
+    //    }
 
-        public DateTime GetBirthdate()
-        {
-            return _birthdate;
-        }
-    }
+    //    public DateTime GetBirthdate()
+    //    {
+    //        return _birthdate;
+    //    }
+    //}
 
     ////Properties Example
     ////This is the same code as above
