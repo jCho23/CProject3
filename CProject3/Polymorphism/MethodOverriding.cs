@@ -24,8 +24,51 @@
 //}
 
 using System;
+using System.Collections.Generic;
+
 namespace CProject3.Polymorphism
+
+////Demo 1
 {
+    public class Shape
+    {
+        public int Width { get; set; }
+        public int Height { get; set; }
+
+        public Position Position { get; set; }
+        public ShapeType Type { get; set; }
+    }
+
+    public enum ShapeType
+    {
+        Circle,
+        Rectangle
+    }
+
+    public enum Position
+    {
+    }
+
+    public class Canvas
+    {
+        public void DrawShapes(List<Shape> shapes)
+        {
+            foreach (var shape in shapes)
+            {
+                switch (shape.Type)
+                {
+                    case ShapeType.Circle:
+                        Console.WriteLine("Draw a Circle");
+                        break;
+
+                    case ShapeType.Rectangle:
+                        Console.WriteLine("Draw a rectangle");
+                        break;
+                }
+            }
+        }
+    }
+
     public class MethodOverriding
     {
         public MethodOverriding()
