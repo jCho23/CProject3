@@ -97,6 +97,13 @@ namespace CProject3.Inheritances
             ////We created a new Shape object and assigned it to Text
             ////Thus, at runtime it will be type Text 
             Shape shape = new Text();
+
+            ////Here, we are downcasting the Text object to acess its properties
+            Text text = (Text)shape;
+            ////Now, we have access to all the properties of the text object
         }
+
+
+
     }
 }
