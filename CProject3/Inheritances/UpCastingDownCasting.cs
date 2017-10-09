@@ -19,16 +19,24 @@
 //    Car car = (car)obj;
 //}
 
-
-
-
 using System;
 namespace CProject3.Inheritances
 {
-    public class UpCastingDownCasting
+    public class Shape
     {
-        public UpCastingDownCasting()
-        {
+        ////Here, we are creating two properties to define Shape Class
+        public int Width { get; set; }
+        public int Height { get; set; }
+
+        ////Definig 
+
+    }
+
+
+    class UpCastingDownCasting
+    {
+        static void Main(string[] args){
+            
         }
     }
 }
