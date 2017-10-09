@@ -28,15 +28,27 @@ using System.Collections.Generic;
 
 namespace CProject3.Polymorphism
 
-////Demo 1
+////Demo
 {
+    public class Circle : Shape
+    {
+        
+    }
+
+    public class Rectangle : Shape
+    {
+        
+    }
+
+
     public class Shape
     {
         public int Width { get; set; }
         public int Height { get; set; }
 
         public Position Position { get; set; }
-        public ShapeType Type { get; set; }
+        ////Since we defined the shapes above, we no longer need this enum
+        //public ShapeType Type { get; set; }
     }
 
     public enum ShapeType
@@ -69,10 +81,5 @@ namespace CProject3.Polymorphism
         }
     }
 
-    public class MethodOverriding
-    {
-        public MethodOverriding()
-        {
-        }
-    }
+   
 }
