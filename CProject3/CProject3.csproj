@@ -11,5 +11,6 @@
     <Folder Include="Classes\" />
     <Folder Include="Constructors\" />
     <Folder Include="PropertiesInClasses\" />
+    <Folder Include="Polymorphism\" />
   </ItemGroup>
 </Project>
