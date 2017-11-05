@@ -1,6 +1,10 @@
 ﻿////Abstract Modifier = Indicates that a class or a member is missing implementation
 
 #region Abstract Members
+// Do not include implementation
+// If a member is declared as abstract, the containing class needs to be declared as abstract too
+
+//public abstract void Draw();
 
 
 #endregion
