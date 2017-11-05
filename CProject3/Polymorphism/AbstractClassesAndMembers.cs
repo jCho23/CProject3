@@ -47,7 +47,12 @@ namespace CProject3.Polymorphism
 
         public void Copy()
         {
-            
+            Console.WriteLine("Copy Shape into Clipboard");
+        }
+
+        public void Select()
+        {
+            Console.WriteLine("Selected the Shape");
         }
 
     }
@@ -62,7 +67,10 @@ namespace CProject3.Polymorphism
 
     public class Rectangle : Shape
     {
-
+        public override void Draw()
+        {
+            Console.WriteLine("Draw a rectangle");
+        }
     }
 
     public class AbstractClassesandMembers
