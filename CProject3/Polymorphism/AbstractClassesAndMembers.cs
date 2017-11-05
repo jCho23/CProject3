@@ -1,5 +1,10 @@
 ﻿////Abstract Modifier = Indicates that a class or a member is missing implementation
 
+#region Abstract Members
+
+
+#endregion
+
 public class Shape
 {
     public virtual void Draw()
