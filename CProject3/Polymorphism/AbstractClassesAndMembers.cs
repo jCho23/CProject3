@@ -54,7 +54,20 @@ namespace CProject3.Polymorphism
     {
         public override void Draw()
         {
-            System.Console.WriteLine("Drawing a Circle");
+            Console.WriteLine("Drawing a Circle");
+        }
+    }
+
+    public class Rectangle : Shape
+    {
+        
+    }
+
+    public class AbstractClassesandMembers
+    {
+        static void Main(string[] args)
+        {
+            
         }
     }
 }
