@@ -30,24 +30,26 @@ using System;
 
 namespace CProject3.Polymorphism
 {
-    public class Shape
+    public abstract class Shape
     {
         public int Width { get; set; }
         public int Height { get; set; }
 
-        public virtual void Draw()
+        public abstract void Draw();
+
+        ////Notice, that we can't state "Drawing a Shape"
+        /// In this case, we use "abstract" to indicate this Method is missing implementation
+        /// and we leave it to the dervied classes to provide an implementation for this Method
+
+
+         ////When declaring a class "abstract" note that you state it both in the class and method
+        ////Thus "abstract" are inherently "virtual", thus providing polymorphic behavior
+
+        public void Copy()
         {
-            ////Notice, that we can't state "Drawing a Shape"
-            /// In this case, we use "abstract" to indicate this Method is missing implementation
-            /// and we leave it to the dervied classes to provide an implementation for this Method
+            
         }
 
-        ////When declaring a class "abstract" note that you state it both in the class and method
-        ////Thus "abstract" are inherently "virtual", thus providing polymorphic behavior
-        public abstract class Shape
-        {
-            public abstract void Draw();
-        }
     }
 
     public class Circle : Shape
@@ -60,14 +62,18 @@ namespace CProject3.Polymorphism
 
     public class Rectangle : Shape
     {
-        
+
     }
 
     public class AbstractClassesandMembers
     {
         static void Main(string[] args)
         {
-            
+            var circle = new Circle();
+            circle.Draw();
+
+            var rectangle = new Rectangle();
+            rectangle.Draw();
         }
     }
 }
