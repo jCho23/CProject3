@@ -22,43 +22,40 @@
 #endregion
 
 #region Why Use Abstract?
-
-
+// When you want to provide some common behaviour, 
+// while forcing other developers to follow your design
 #endregion
 
-
-public class Shape
-{
-    public virtual void Draw()
-    {
-        ////Notice, that we can't state "Drawing a Shape"
-        /// In this case, we use "abstract" to indicate this Method is missing implementation
-        /// and we leave it to the dervied classes to provide an implementation for this Method
-    }
-
-    ////When declaring a class "abstract" note that you state it both in the class and method
-    ////Thus "abstract" are inherently "virtual", thus providing polymorphic behavior
-    public abstract class Shape
-    {
-        public abstract void Draw();
-    }
-}
-
-public class Circle : Shape
-{
-    public override void Draw()
-    {
-        System.Console.WriteLine("Drawing a Circle");
-    }
-}
-
 using System;
+
 namespace CProject3.Polymorphism
 {
-    public class AbstractClassesAndMembers
+    public class Shape
     {
-        public AbstractClassesAndMembers()
+        public int Width { get; set; }
+        public int Height { get; set; }
+
+        public virtual void Draw()
         {
+            ////Notice, that we can't state "Drawing a Shape"
+            /// In this case, we use "abstract" to indicate this Method is missing implementation
+            /// and we leave it to the dervied classes to provide an implementation for this Method
+        }
+
+        ////When declaring a class "abstract" note that you state it both in the class and method
+        ////Thus "abstract" are inherently "virtual", thus providing polymorphic behavior
+        public abstract class Shape
+        {
+            public abstract void Draw();
+        }
+    }
+
+    public class Circle : Shape
+    {
+        public override void Draw()
+        {
+            System.Console.WriteLine("Drawing a Circle");
         }
     }
 }
+
