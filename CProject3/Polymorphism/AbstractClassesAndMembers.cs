@@ -3,6 +3,7 @@
 #region Abstract Members
 // Do not include implementation
 // If a member is declared as abstract, the containing class needs to be declared as abstract too
+// Cannot be instantiated
 
 //public abstract class Shape
 //{   
@@ -18,8 +19,13 @@
 //        //Implementation for Circle
 //    }
 //}
+#endregion
+
+#region Why Use Abstract?
+
 
 #endregion
+
 
 public class Shape
 {
