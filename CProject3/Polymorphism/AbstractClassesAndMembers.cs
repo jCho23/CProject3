@@ -4,7 +4,10 @@
 // Do not include implementation
 // If a member is declared as abstract, the containing class needs to be declared as abstract too
 
-//public abstract void Draw();
+//public abstract class Shape
+//{   
+//    public abstract void Draw();
+//}
 
 
 #endregion
