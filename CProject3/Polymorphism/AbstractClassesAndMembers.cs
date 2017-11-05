@@ -9,6 +9,15 @@
 //    public abstract void Draw();
 //}
 
+//Dervived Classes
+// Must implement all abstract members in the base abstract class
+//public class Circle : Shape
+//{
+//    public override void Draw()
+//    {
+//        //Implementation for Circle
+//    }
+//}
 
 #endregion
 
