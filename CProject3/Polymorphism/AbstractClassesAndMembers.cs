@@ -75,14 +75,14 @@ namespace CProject3.Polymorphism
 
     public class AbstractClassesandMembers
     {
-        static void Main(string[] args)
-        {
-            var circle = new Circle();
-            circle.Draw();
+        //static void Main(string[] args)
+        //{
+        //    var circle = new Circle();
+        //    circle.Draw();
 
-            var rectangle = new Rectangle();
-            rectangle.Draw();
-        }
+        //    var rectangle = new Rectangle();
+        //    rectangle.Draw();
+        //}
     }
 }
 
