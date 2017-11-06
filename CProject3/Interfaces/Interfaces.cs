@@ -12,6 +12,9 @@
 //    int Calculate();
 //}
 
+//Why use Interfaces?
+//To build loosely-coupled applications
+
 #endregion
 using System;
 namespace CProject3.Interfaces
