@@ -10,6 +10,7 @@
 //public interface ITaxCalculator
 //{
 //    int Calculate();
+//NOTE: Methods do not have bodies in Interfaces
 //}
 
 //Why use Interfaces?
