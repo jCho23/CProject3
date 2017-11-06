@@ -12,5 +12,6 @@
     <Folder Include="Constructors\" />
     <Folder Include="PropertiesInClasses\" />
     <Folder Include="Polymorphism\" />
+    <Folder Include="Interfaces\" />
   </ItemGroup>
 </Project>
