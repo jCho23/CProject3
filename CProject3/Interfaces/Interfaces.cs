@@ -21,6 +21,26 @@ using System;
 
 namespace CProject3.Interfaces
 {
+    public class OrderProcessor
+    {
+        private readonly ShippingCalculator _shippingCalculator;
+
+        public OrderProcessor()
+        {
+            _shippingCalculator = new ShippingCalculator();
+        }
+
+
+
+
+
+
+
+    }
+
+
+
+
     public class Testability
     {
        static void Main(string[] args)
