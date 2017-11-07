@@ -48,8 +48,6 @@ namespace CProject3.Interfaces
     }
 
 
-
-
     public class Testability
     {
        static void Main(string[] args)
