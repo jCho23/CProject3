@@ -18,12 +18,16 @@
 
 #endregion
 using System;
+
 namespace CProject3.Interfaces
 {
-    public class Interfaces
+    public class Testability
     {
-        public Interfaces()
+       static void Main(string[] args)
         {
+            var orderProcessor = new OrderProcessor();
+            var order = new Order { DatePlaced = DateTime.Now, TotalPrice = 100f };
+            orderProcessor.Process(order);
         }
     }
 }
