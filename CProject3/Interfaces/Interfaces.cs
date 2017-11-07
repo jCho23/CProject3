@@ -30,7 +30,13 @@ namespace CProject3.Interfaces
             _shippingCalculator = new ShippingCalculator();
         }
 
+        public void Process(Order order)
+        {
+            if (order.IsShipped)
+                throw new InvalidOperationException("This Order is already processed");
 
+            order,Shipment = new Shipment
+        }
 
 
 
