@@ -3,10 +3,6 @@
 # Authors
 
 **June Cho** <br>
-*Microsoft Technical Solutions Professional*
-<br># Authors
-
-**June Cho** <br>
 <br>
 *Microsoft Technical Solutions Professional*
 
