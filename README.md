@@ -2,7 +2,7 @@
 
 # Authors
 
-**June Cho** <br>
+**June Cho** 
 <br>
 *Microsoft Technical Solutions Professional*
 
