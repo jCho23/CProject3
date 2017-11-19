@@ -1,7 +1,6 @@
 # CProject3
 
 # Authors
-
 **June Cho** 
 <br>
 *Microsoft Technical Solutions Professional*
