@@ -1,4 +1,5 @@
 # CProject3
+Simple project 
 
 # Authors
 **June Cho** 
